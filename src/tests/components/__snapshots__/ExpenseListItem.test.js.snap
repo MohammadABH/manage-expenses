@@ -11,11 +11,11 @@ exports[`Should render ExpenseListIten 1`] = `
   </[object Object]>
   <p>
     Amount: 
-    300
+    $3.00
   </p>
   <p>
     Created at: 
-    0
+    1st January, 1970
   </p>
 </div>
 `;
