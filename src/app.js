@@ -12,12 +12,6 @@ import AppRouter from './routers/AppRouter';
 
 const store = configureStore();
 
-store.dispatch(addExpense({ description:'Water bill', amount: 4500, createdAt: '6000' }));
-store.dispatch(addExpense({ description:'Gas bill', amount: 1000, createdAt: '1000' }));
-store.dispatch(addExpense({ description:'Rent', amount: 109500, createdAt: '500' }));
-const state = store.getState()
-const visible = getVisibleExpenses(state.expenses, state.filters);
-
 const jsx = (
 	<Provider store={store}>
 		<AppRouter />
