@@ -1,0 +1,20 @@
+.button {
+	border-radius: 3px;
+	background: $purple;
+	border: none;
+	color: white;
+	padding: $s-size;
+	font-weight: 400;
+	font-size: $font-size-large;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 1;
+}
+
+.button--link {
+	background: none;
+}
+
+.button--remove {
+	background: #972626;
+}
